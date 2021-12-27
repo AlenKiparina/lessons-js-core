@@ -77,7 +77,7 @@ html {
 .avatar__picture {
 	margin: 32px;
 	border-radius: 350px;
-    border: 17px solid #fff;
+    border: 1rem solid #fff;
 	width: 700;
 }
 
