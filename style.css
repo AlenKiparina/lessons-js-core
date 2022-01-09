@@ -20,10 +20,17 @@ html {
 	font-weight: bold;	
 }
 
+.avatar__picture:hover {
+transform: rotate(180deg);
+
+}
+
 .avatar__picture {
 	margin: 2rem;
 	border-radius: 50%;
     border: 1.5rem solid #fff;
+	transition-duration:1000ms;
+
 }
 
 .contacts__name {
