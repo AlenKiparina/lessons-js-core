@@ -6,14 +6,14 @@ html {
 	font-size: 16px;
 }
 .person {
-	font-size: 16px;
+	font-size: 1rem;
 	color: #000;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	font-family: "Calibri";
-	margin-left: 120px;
-	margin-right: 120px;
+	width: 80%;
+	margin-left: 10%;
 }
 
 .person__contacts {
@@ -21,20 +21,19 @@ html {
 }
 
 .avatar__picture {
-	margin: 32px;
-	border-radius: 180px;
-    border: 17px solid #fff;
-
+	margin: 2rem;
+	border-radius: 50%;
+    border: 1.5rem solid #fff;
 }
 
 .contacts__name {
-	font-size: 32px;
+	font-size: 2rem;
 }
 .contacts__role {
-	font-size: 19.2px;
+	font-size: 1.2rem;
 }
 .contacts__item {
-	margin: 25px 0;
+	margin: 1.5rem 0;
 }
 .contacts__title {
 	font-style: italic;
@@ -46,11 +45,11 @@ html {
 	font-weight: normal;
 }
 .paragraph {
-	margin: 16px 32px;
+	margin: 1rem 2rem;
 }
 
 .paragraph_last {
-	margin: 16px 32px 48px;
+	margin: 1rem 2rem 3rem;
 }
 
 @media (max-device-width:480px){
@@ -59,56 +58,52 @@ html {
 	width: 100%;
 	background: rgb(0,255,250);
 	background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,184,63,0.3) 91%);
-	font-size: 16px;
+	font-size: 1rem;
 }
 .person {
-	font-size: 16px;
+	font-size: 1rem;
 	color: #000;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	font-family: "Calibri";
-	margin-left: 130px;
-	margin-right: 130px;
 	justify-content: center;
-
 }
 
 .avatar__picture {
-	margin: 32px;
-	border-radius: 350px;
-    border: 17px solid #fff;
+	margin: 2rem;
+	border-radius: 50%;
+    border: 3rem solid #fff;
 	width: 700;
 }
 
 .contacts__name {
-	font-size: 90px;
+	font-size: 5.5rem;
 	text-align: center;
 }
 .contacts__role {
-	font-size: 19.2px;
+	font-size: 1.2rem;
 	text-align: center;
 }
 .contacts__item {
-	margin: 25px 0;
+	margin: 1.5rem 0;
 	text-align: left;
 }
 .contacts__title {
 	font-style: italic;
-	
+
 }
 
 .contacts__link {
 	color: gray;
 	font-style: italic;
 	font-weight: normal;
-
 }
 .paragraph {
-	margin: 16px 32px;
+	margin: 1rem 2rem;
 }
 
 .paragraph_last {
-	margin: 16px 32px 48px;
+	margin: 1rem 2rem 3rem;
 }
 }
